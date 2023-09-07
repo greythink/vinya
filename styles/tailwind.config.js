@@ -19,11 +19,11 @@ module.exports = {
             transparent: 'transparent',
             current: 'currentColor',
             brand: {
-                blue: '#6595CE',
-                gray: colors.gray['600'],
-                mustard: '#F5A113',
-                red: '#E43C24',
-                turquoise: '#58BABB',
+                white: '#FFFFFF',
+                'light-grey': '#9A9A9A',
+                grey: '#605959',
+                pink: '#E39E9E',
+                brown: '#907979',
             },
         },
         container: {
