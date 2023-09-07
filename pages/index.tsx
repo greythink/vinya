@@ -25,7 +25,7 @@ export default function Home() {
                     </h1>
                 </header>
                 <section className="max-w-prose mx-auto text-center">
-                    <h2 className="mt-20 text-2xl">
+                    <h2 className="mt-20 text-3xl">
                         Website Coming Soon
                     </h2>
                 </section>

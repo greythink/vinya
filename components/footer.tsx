@@ -1,7 +1,7 @@
 export default function Footer() {
     return (
         <footer className="max-w-prose mx-auto text-center">
-            <p className="mt-20 leading-relaxed">
+            <p className="mt-10 leading-relaxed">
                 Vinya Foundation
                 <br />
                 14-D, Pocket-B, Mayur Vihar Phase - II

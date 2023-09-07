@@ -1,16 +1,16 @@
 import { ReactNode } from 'react';
-import { Mali, Nunito } from '@next/font/google';
+import { Glory, Roboto } from '@next/font/google';
 import Footer from './footer';
 
 
 
-const fontTitle = Mali({
-    weight: ['500', '700'],
+const fontTitle = Glory({
+    weight: ['700'],
     subsets: ['latin'],
     display: 'swap',
     variable: '--font-title',
 });
-const fontBody = Nunito({
+const fontBody = Roboto({
     weight: '400',
     subsets: ['latin'],
     display: 'swap',
@@ -21,7 +21,7 @@ const fontBody = Nunito({
 
 export default function Layout({ children }: { children: ReactNode }) {
     return (
-        <div className={`page-wrapper ${fontTitle.variable} ${fontBody.variable} container my-24`}>
+        <div className={`page-wrapper ${fontTitle.variable} ${fontBody.variable} container my-12 xs:my-24`}>
             <main>
                 {children}
             </main>
