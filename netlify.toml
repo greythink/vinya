@@ -1,6 +1,3 @@
 [build]
-publish = "out"
-command = "npm run deploy"
-
-# Software versions
-NODE_VERSION = "18"
+publish = ".next"
+command = "npm run build"
